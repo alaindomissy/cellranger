@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: pybedtools
+Version: 0.6.4
+Summary: Wrapper around BEDTools for bioinformatics work
+Home-page: none
+Author: Ryan Dale
+Author-email: dalerr@niddk.nih.gov
+License: UNKNOWN
+Description: 
+        ``pybedtools`` is a Python extension of Aaron Quinlan's BEDtools suite
+        (http://code.google.com/p/bedtools/), used for comparing genomic features.
+        
+        ``pybedtools`` allows you to intuitively call BEDtools programs from within
+        Python without writing awkward system calls, and allows you to manipulate data
+        on the file level as well as on the individual feature level.
+        
+        Development version can be found on github:
+        
+            http://github.com/daler/pybedtools
+        
+        and see full documentation and tutorial at:
+        
+            http://packages.python.org/pybedtools
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics

@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/ptyprocess-0.4-py2.7.egg-info", 
+    "lib/python2.7/site-packages/ptyprocess/__init__.py", 
+    "lib/python2.7/site-packages/ptyprocess/__init__.pyc", 
+    "lib/python2.7/site-packages/ptyprocess/_fork_pty.py", 
+    "lib/python2.7/site-packages/ptyprocess/_fork_pty.pyc", 
+    "lib/python2.7/site-packages/ptyprocess/ptyprocess.py", 
+    "lib/python2.7/site-packages/ptyprocess/ptyprocess.pyc", 
+    "lib/python2.7/site-packages/ptyprocess/util.py", 
+    "lib/python2.7/site-packages/ptyprocess/util.pyc"
+  ], 
+  "license": "ISC", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/ptyprocess-0.4-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "ptyprocess", 
+  "platform": "linux", 
+  "requires": [
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.4"
+}

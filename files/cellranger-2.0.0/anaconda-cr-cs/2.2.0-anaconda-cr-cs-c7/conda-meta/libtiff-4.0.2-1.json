@@ -1,0 +1,38 @@
+{
+  "arch": "x86_64", 
+  "build": "1", 
+  "build_number": 1, 
+  "depends": [
+    "jpeg 8d"
+  ], 
+  "files": [
+    "include/tiff.h", 
+    "include/tiffconf.h", 
+    "include/tiffio.h", 
+    "include/tiffio.hxx", 
+    "include/tiffvers.h", 
+    "lib/libtiff.a", 
+    "lib/libtiff.la", 
+    "lib/libtiff.so", 
+    "lib/libtiff.so.5", 
+    "lib/libtiff.so.5.1.0", 
+    "lib/libtiffxx.a", 
+    "lib/libtiffxx.la", 
+    "lib/libtiffxx.so", 
+    "lib/libtiffxx.so.5", 
+    "lib/libtiffxx.so.5.1.0", 
+    "lib/pkgconfig/libtiff-4.pc"
+  ], 
+  "license": "as-is (http://www.libtiff.org/misc.html)", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/libtiff-4.0.2-1", 
+    "type": "hard-link"
+  }, 
+  "name": "libtiff", 
+  "platform": "linux", 
+  "requires": [
+    "jpeg 8d"
+  ], 
+  "url": null, 
+  "version": "4.0.2"
+}

@@ -1,0 +1,14 @@
+# tcl pkg-config source file
+
+prefix=/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7
+exec_prefix=/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7
+libdir=/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/lib
+includedir=${prefix}/include
+
+Name: Tool Command Language
+Description: Tcl is a powerful, easy-to-learn dynamic programming language, suitable for a wide range of uses.
+URL: http://www.tcl.tk/
+Version: 8.5.18
+Libs: -L${libdir} -ltcl8.5
+Libs.private: -ldl  -lieee -lm
+Cflags: -I${includedir}

@@ -1,0 +1,52 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "cryptography 0.5.3", 
+    "python 2.7*", 
+    "six"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/OpenSSL/SSL.py", 
+    "lib/python2.7/site-packages/OpenSSL/SSL.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/__init__.py", 
+    "lib/python2.7/site-packages/OpenSSL/__init__.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/_util.py", 
+    "lib/python2.7/site-packages/OpenSSL/_util.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/crypto.py", 
+    "lib/python2.7/site-packages/OpenSSL/crypto.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/rand.py", 
+    "lib/python2.7/site-packages/OpenSSL/rand.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/test/__init__.py", 
+    "lib/python2.7/site-packages/OpenSSL/test/__init__.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/test/test_crypto.py", 
+    "lib/python2.7/site-packages/OpenSSL/test/test_crypto.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/test/test_rand.py", 
+    "lib/python2.7/site-packages/OpenSSL/test/test_rand.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/test/test_ssl.py", 
+    "lib/python2.7/site-packages/OpenSSL/test/test_ssl.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/test/util.py", 
+    "lib/python2.7/site-packages/OpenSSL/test/util.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/tsafe.py", 
+    "lib/python2.7/site-packages/OpenSSL/tsafe.pyc", 
+    "lib/python2.7/site-packages/OpenSSL/version.py", 
+    "lib/python2.7/site-packages/OpenSSL/version.pyc", 
+    "lib/python2.7/site-packages/pyOpenSSL-0.14-py2.7.egg-info"
+  ], 
+  "license": "APL2", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/pyopenssl-0.14-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "pyopenssl", 
+  "platform": "linux", 
+  "requires": [
+    "cryptography 0.5.3", 
+    "python 2.7", 
+    "six 1.7.3"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.14"
+}

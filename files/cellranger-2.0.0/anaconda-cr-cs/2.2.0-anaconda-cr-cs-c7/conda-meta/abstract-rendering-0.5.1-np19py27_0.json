@@ -1,0 +1,53 @@
+{
+  "arch": "x86_64", 
+  "build": "np19py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "numpy 1.9*", 
+    "python 2.7*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/abstract_rendering-0.5.1-py2.7.egg-info", 
+    "lib/python2.7/site-packages/abstract_rendering/__init__.py", 
+    "lib/python2.7/site-packages/abstract_rendering/__init__.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/_cntr.so", 
+    "lib/python2.7/site-packages/abstract_rendering/_version.txt", 
+    "lib/python2.7/site-packages/abstract_rendering/categories.py", 
+    "lib/python2.7/site-packages/abstract_rendering/categories.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/contour.py", 
+    "lib/python2.7/site-packages/abstract_rendering/contour.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/core.py", 
+    "lib/python2.7/site-packages/abstract_rendering/core.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/fast_project.py", 
+    "lib/python2.7/site-packages/abstract_rendering/fast_project.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/general.py", 
+    "lib/python2.7/site-packages/abstract_rendering/general.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/geometry.py", 
+    "lib/python2.7/site-packages/abstract_rendering/geometry.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/glyphset.py", 
+    "lib/python2.7/site-packages/abstract_rendering/glyphset.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/infos.py", 
+    "lib/python2.7/site-packages/abstract_rendering/infos.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/numeric.py", 
+    "lib/python2.7/site-packages/abstract_rendering/numeric.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/numpyglyphs.py", 
+    "lib/python2.7/site-packages/abstract_rendering/numpyglyphs.pyc", 
+    "lib/python2.7/site-packages/abstract_rendering/transform.so", 
+    "lib/python2.7/site-packages/abstract_rendering/util.py", 
+    "lib/python2.7/site-packages/abstract_rendering/util.pyc"
+  ], 
+  "license": "3rd-clause BSD (https://github.com/JosephCottam/AbstractRendering/blob/master/LICENSE)", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/abstract-rendering-0.5.1-np19py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "abstract-rendering", 
+  "platform": "linux", 
+  "requires": [
+    "numpy 1.9", 
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.5.1"
+}

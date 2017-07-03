@@ -1,0 +1,4 @@
+
+[test]
+nose>=0.11
+pyyaml

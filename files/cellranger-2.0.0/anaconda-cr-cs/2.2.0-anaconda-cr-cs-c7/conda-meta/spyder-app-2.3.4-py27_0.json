@@ -1,0 +1,29 @@
+{
+  "app_entry": "spyder", 
+  "app_type": "desk", 
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*", 
+    "spyder 2.3.4"
+  ], 
+  "files": [], 
+  "icon": "9779607c273dc0786bd972b4cb308b58.png", 
+  "license": "MIT", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/spyder-app-2.3.4-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "spyder-app", 
+  "platform": "linux", 
+  "requires": [
+    "python 2.7", 
+    "spyder 2.3.4"
+  ], 
+  "summary": "Scientific Python Development Environment", 
+  "type": "app", 
+  "ucs": 4, 
+  "url": null, 
+  "version": "2.3.4"
+}

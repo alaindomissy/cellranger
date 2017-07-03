@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+SPECIES=$1
+
+if [ -z "$SPECIES" ]
+then
+  echo missing argument
+  echo usage: 
+  echo   cellranger getrefdata SPECIES
+  echo   SPECIES: one of GRCh38 hg19 mm10 ercc92
+elif [ $SPECIES = GRCh38 ] || [ $SPECIES = hg19 ] || [ $SPECIES = mm10 ] || [ $SPECIES = ercc92 ]
+then
+  wget http://cf.10xgenomics.com/supp/cell-exp/refdata-cellranger-${SPECIES}-1.2.0.tar.gz
+  tar -xzvf refdata-cellranger-${SPECIES}-1.2.0.tar.gz
+  rm refdata-cellranger-${SPECIES}-1.2.0.tar.gz
+else
+  echo unavailable species
+  echo available species are : GRCh38 hg19 mm10 ercc92
+fi
+

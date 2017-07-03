@@ -1,0 +1,35 @@
+#!/bin/bash
+# Copyright (c) 2017 10x Genomics, Inc. All rights reserved.
+#
+# Environment setup for package cellranger-2.0.0.
+# Creates a self-contained shell for running 10x Genomics pipelines.
+#
+
+# Determine path to this script; resolve symlinks
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do
+    DIR="$( cd -P "$( dirname "$SOURCE" )" > /dev/null && pwd )"
+    SOURCE="$(readlink "$SOURCE")"
+    [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+DIR="$( cd -P "$( dirname "$SOURCE" )" > /dev/null && pwd )"
+
+# Report key environment variable values
+echo -e "Entering the \033[34m10x Genomics $TENX_PRODUCT\033[0m environment."
+echo -e "Type 'exit' or CTRL-D to leave."
+echo -e "By continuing, you are agreeing to the terms at software.10xgenomics.com/license.\n"
+echo -e "\033[35mMROPATH\033[0m=$MROPATH"
+if [ ! -z "$MROFLAGS" ]; then
+    echo -e "\033[35mMROFLAGS\033[0m=$MROFLAGS"
+fi
+if [ ! -z "$SGE_CLUSTER_NAME" ]; then
+    echo -e "\033[35mSGE_CLUSTER_NAME\033[0m=$SGE_CLUSTER_NAME"
+fi
+echo ""
+
+# Start shell with custom sourceme.bash, which sources user's .bashrc first.
+export _10X_MODPROMPT=true
+_RUN10X=true bash --rcfile $DIR/sourceme.bash
+
+# Say goodbye
+echo -e "\nExited the [34m10x Genomics $TENX_PRODUCT[0m environment."

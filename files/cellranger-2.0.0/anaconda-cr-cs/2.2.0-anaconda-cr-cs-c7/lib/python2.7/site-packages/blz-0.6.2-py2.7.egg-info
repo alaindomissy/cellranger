@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: blz
+Version: 0.6.2
+Summary: blz: a compressed data container
+Home-page: https://github.com/ContinuumIO/blz
+Author: Francesc Alted
+Author-email: francesc@continuum.io
+License: http://www.opensource.org/licenses/bsd-license.php
+Description: 
+        BLZ is a chunked container for numerical data.  Chunking allows for
+        efficient enlarging/shrinking of data container.  In addition, it can
+        also be compressed for reducing memory/disk needs.  The compression
+        process is carried out internally by Blosc, a high-performance
+        compressor that is optimized for binary data.
+        
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix

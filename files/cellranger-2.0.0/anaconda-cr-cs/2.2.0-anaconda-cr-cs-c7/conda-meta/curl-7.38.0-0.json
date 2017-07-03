@@ -1,0 +1,41 @@
+{
+  "arch": "x86_64", 
+  "build": "0", 
+  "build_number": 0, 
+  "depends": [
+    "openssl 1.0.1*", 
+    "zlib 1.2.7"
+  ], 
+  "files": [
+    "bin/curl", 
+    "bin/curl-config", 
+    "include/curl/curl.h", 
+    "include/curl/curlbuild.h", 
+    "include/curl/curlrules.h", 
+    "include/curl/curlver.h", 
+    "include/curl/easy.h", 
+    "include/curl/mprintf.h", 
+    "include/curl/multi.h", 
+    "include/curl/stdcheaders.h", 
+    "include/curl/typecheck-gcc.h", 
+    "lib/libcurl.a", 
+    "lib/libcurl.la", 
+    "lib/libcurl.so", 
+    "lib/libcurl.so.4", 
+    "lib/libcurl.so.4.3.0", 
+    "lib/pkgconfig/libcurl.pc"
+  ], 
+  "license": "MIT/X derivate (http://curl.haxx.se/docs/copyright.html)", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/curl-7.38.0-0", 
+    "type": "hard-link"
+  }, 
+  "name": "curl", 
+  "platform": "linux", 
+  "requires": [
+    "openssl 1.0.1h", 
+    "zlib 1.2.7"
+  ], 
+  "url": null, 
+  "version": "7.38.0"
+}

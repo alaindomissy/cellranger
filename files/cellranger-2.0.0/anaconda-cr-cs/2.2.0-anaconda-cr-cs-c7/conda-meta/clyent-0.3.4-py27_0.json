@@ -1,0 +1,44 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/clyent-0.3.4-py2.7.egg-info", 
+    "lib/python2.7/site-packages/clyent/__init__.py", 
+    "lib/python2.7/site-packages/clyent/__init__.pyc", 
+    "lib/python2.7/site-packages/clyent/errors.py", 
+    "lib/python2.7/site-packages/clyent/errors.pyc", 
+    "lib/python2.7/site-packages/clyent/logs/__init__.py", 
+    "lib/python2.7/site-packages/clyent/logs/__init__.pyc", 
+    "lib/python2.7/site-packages/clyent/logs/colors/__init__.py", 
+    "lib/python2.7/site-packages/clyent/logs/colors/__init__.pyc", 
+    "lib/python2.7/site-packages/clyent/logs/colors/base.py", 
+    "lib/python2.7/site-packages/clyent/logs/colors/base.pyc", 
+    "lib/python2.7/site-packages/clyent/logs/colors/nt.py", 
+    "lib/python2.7/site-packages/clyent/logs/colors/nt.pyc", 
+    "lib/python2.7/site-packages/clyent/logs/colors/posix.py", 
+    "lib/python2.7/site-packages/clyent/logs/colors/posix.pyc", 
+    "lib/python2.7/site-packages/clyent/logs/colors/printer.py", 
+    "lib/python2.7/site-packages/clyent/logs/colors/printer.pyc", 
+    "lib/python2.7/site-packages/clyent/logs/formatters.py", 
+    "lib/python2.7/site-packages/clyent/logs/formatters.pyc", 
+    "lib/python2.7/site-packages/clyent/logs/handlers.py", 
+    "lib/python2.7/site-packages/clyent/logs/handlers.pyc"
+  ], 
+  "license": "BSD", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/clyent-0.3.4-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "clyent", 
+  "platform": "linux", 
+  "requires": [
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.3.4"
+}

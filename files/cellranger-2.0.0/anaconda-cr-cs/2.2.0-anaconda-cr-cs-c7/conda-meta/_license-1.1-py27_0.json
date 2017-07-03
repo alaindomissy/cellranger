@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "files": [
+    "lib/python2.7/site-packages/_license.so"
+  ], 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/_license-1.1-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "_license", 
+  "platform": "linux", 
+  "requires": [
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "1.1"
+}

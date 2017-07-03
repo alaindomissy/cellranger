@@ -1,0 +1,45 @@
+{
+  "arch": "x86_64", 
+  "build": "np19py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "numpy 1.9*", 
+    "python 2.7*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/numexpr-2.3.1-py2.7.egg-info", 
+    "lib/python2.7/site-packages/numexpr/__config__.py", 
+    "lib/python2.7/site-packages/numexpr/__config__.pyc", 
+    "lib/python2.7/site-packages/numexpr/__init__.py", 
+    "lib/python2.7/site-packages/numexpr/__init__.pyc", 
+    "lib/python2.7/site-packages/numexpr/cpuinfo.py", 
+    "lib/python2.7/site-packages/numexpr/cpuinfo.pyc", 
+    "lib/python2.7/site-packages/numexpr/expressions.py", 
+    "lib/python2.7/site-packages/numexpr/expressions.pyc", 
+    "lib/python2.7/site-packages/numexpr/interpreter.so", 
+    "lib/python2.7/site-packages/numexpr/necompiler.py", 
+    "lib/python2.7/site-packages/numexpr/necompiler.pyc", 
+    "lib/python2.7/site-packages/numexpr/tests/__init__.py", 
+    "lib/python2.7/site-packages/numexpr/tests/__init__.pyc", 
+    "lib/python2.7/site-packages/numexpr/tests/test_numexpr.py", 
+    "lib/python2.7/site-packages/numexpr/tests/test_numexpr.pyc", 
+    "lib/python2.7/site-packages/numexpr/utils.py", 
+    "lib/python2.7/site-packages/numexpr/utils.pyc", 
+    "lib/python2.7/site-packages/numexpr/version.py", 
+    "lib/python2.7/site-packages/numexpr/version.pyc"
+  ], 
+  "license": "MIT", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/numexpr-2.3.1-np19py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "numexpr", 
+  "platform": "linux", 
+  "requires": [
+    "numpy 1.9", 
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "2.3.1"
+}

@@ -1,0 +1,11 @@
+prefix=/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.21.0
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

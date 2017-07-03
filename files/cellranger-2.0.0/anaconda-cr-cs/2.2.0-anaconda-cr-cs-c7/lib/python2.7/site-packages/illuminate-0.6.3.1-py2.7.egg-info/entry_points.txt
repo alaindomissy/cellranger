@@ -1,0 +1,3 @@
+[console_scripts]
+illuminate = illuminate.__main__:collect_args
+

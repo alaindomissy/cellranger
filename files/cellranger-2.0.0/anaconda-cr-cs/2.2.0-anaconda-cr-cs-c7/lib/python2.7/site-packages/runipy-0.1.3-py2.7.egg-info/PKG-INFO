@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: runipy
+Version: 0.1.3
+Summary: Run IPython notebooks from the command line
+Home-page: https://github.com/paulgb/runipy
+Author: Paul Butler
+Author-email: paulgb@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: IPython

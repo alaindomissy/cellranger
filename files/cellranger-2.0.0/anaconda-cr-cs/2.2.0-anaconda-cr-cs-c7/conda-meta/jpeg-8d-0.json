@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64", 
+  "build": "0", 
+  "build_number": 0, 
+  "files": [
+    ".index/jpeg-8d-0", 
+    "include/jconfig.h", 
+    "include/jerror.h", 
+    "include/jmorecfg.h", 
+    "include/jpeglib.h", 
+    "lib/libjpeg.a", 
+    "lib/libjpeg.la", 
+    "lib/libjpeg.so", 
+    "lib/libjpeg.so.8", 
+    "lib/libjpeg.so.8.4.0"
+  ], 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/jpeg-8d-0", 
+    "type": "hard-link"
+  }, 
+  "name": "jpeg", 
+  "platform": "linux", 
+  "requires": [], 
+  "url": null, 
+  "version": "8d"
+}

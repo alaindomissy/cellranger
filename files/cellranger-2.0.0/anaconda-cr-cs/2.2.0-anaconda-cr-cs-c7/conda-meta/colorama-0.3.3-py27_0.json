@@ -1,0 +1,36 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/colorama-0.3.3-py2.7.egg-info", 
+    "lib/python2.7/site-packages/colorama/__init__.py", 
+    "lib/python2.7/site-packages/colorama/__init__.pyc", 
+    "lib/python2.7/site-packages/colorama/ansi.py", 
+    "lib/python2.7/site-packages/colorama/ansi.pyc", 
+    "lib/python2.7/site-packages/colorama/ansitowin32.py", 
+    "lib/python2.7/site-packages/colorama/ansitowin32.pyc", 
+    "lib/python2.7/site-packages/colorama/initialise.py", 
+    "lib/python2.7/site-packages/colorama/initialise.pyc", 
+    "lib/python2.7/site-packages/colorama/win32.py", 
+    "lib/python2.7/site-packages/colorama/win32.pyc", 
+    "lib/python2.7/site-packages/colorama/winterm.py", 
+    "lib/python2.7/site-packages/colorama/winterm.pyc"
+  ], 
+  "license": "BSD", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/colorama-0.3.3-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "colorama", 
+  "platform": "linux", 
+  "requires": [
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.3.3"
+}

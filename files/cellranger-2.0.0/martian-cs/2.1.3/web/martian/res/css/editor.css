@@ -1,0 +1,170 @@
+/*
+ * Copyright (c) 2014 10X Genomics, Inc. All rights reserved.
+ *
+ * Styles for 10X martianlang editor main UI.
+ *
+ */
+
+/* angular-ui fix */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+/* ng-form-validation */
+.css-form input.ng-invalid.ng-dirty {
+    background-color: #FA787E;
+}
+
+/* Page-specific styles */
+.navbar-header {
+    width: 100%;
+}
+.navbar-inverse .navbar-brand {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+.navbar-inverse .navbar-left {
+    padding: 15px;
+    color: #888;
+    vertical-align: bottom;
+    font-size: 14px;
+}
+.navbar-inverse .navbar-right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 50px;
+    padding: 15px;
+    color: #888;
+    vertical-align: bottom;
+    font-size: 14px;
+    font-family: Menlo;
+}
+#new {
+    right: 100px;
+}
+.logo-color {
+    color: #33b5e5;
+}
+.navbar-left a, .navbar-right a {
+    color: #888;
+    cursor: pointer;
+}
+
+/*******************************************/
+
+main-ace-editor {
+    margin-top: 105px;
+    width: 600px;
+    float:left;
+    margin-right: 20px;
+    z-index: 5;
+}
+
+
+#toolbar {
+    position: fixed;
+    width: 600px;
+    height: 55px;
+    padding: 10px;
+    top: 50px;
+    left: 0px;
+    background: white;
+    z-index: 100;
+    border-bottom: 1px solid #ddd;
+}
+#toolbar button {
+    color: #666;
+}
+#toolbar button a {
+    color: #666;
+}
+#toolbar #new {
+}
+#toolbar #mropath-selector {
+    float: right;
+    text-align: left;
+    margin-right: 20px;
+}
+#toolbar #file-selector {
+    float: right;
+    text-align: left;
+    margin-right: 20px;
+}
+#toolbar #build {
+    float: right;
+}
+#toolbar #save {
+    float: right;
+    margin-right: 20px;
+    color: #dc415d;
+}
+#toolbar #save:disabled {
+    color: #666;
+}
+
+
+include-ace-editor {
+    display: block;
+    width: 600px;
+    height: 800px;
+}
+
+
+#info-tabs {
+    background: none;
+    border: none;
+    position: fixed;
+    color: #dc415d;
+    top: 66px;
+    left: 600px;
+    right: 0px;
+    bottom: 0px;
+    font-family: Menlo;
+    font-size: 12px;
+    position: fixed;
+}
+tab {
+    width: 100%;
+}
+.tab-content {
+    border: solid #ddd;
+    border-width: 0px 1px 1px 1px;
+    border-right: none;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+pre#compiler-messages {
+    background: none;
+    border: none;
+    color: #dc415d;
+    font-family: Menlo;
+    font-size: 12px;
+}
+
+tspan {
+    font-family: Menlo;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+.node rect {
+    stroke: #333;
+    stroke-width: 1.5px;
+    fill: #ddd;
+}
+.edgeLabel rect {
+    fill: #fff;
+}
+.edgePath {
+    stroke: #333;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.complete rect, .chunks_complete rect, .join_complete rect, .split_complete rect {
+    fill: #b6d7a8;
+    color: black;
+}

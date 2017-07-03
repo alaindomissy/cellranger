@@ -1,0 +1,35 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "curl 7.38.0", 
+    "openssl 1.0.1*", 
+    "python 2.7*", 
+    "system 5.8", 
+    "zlib 1.2*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/curl/__init__.py", 
+    "lib/python2.7/site-packages/curl/__init__.pyc", 
+    "lib/python2.7/site-packages/pycurl-7.19.5.1-py2.7.egg-info", 
+    "lib/python2.7/site-packages/pycurl.so"
+  ], 
+  "license": "LGPL and MIT/X", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/pycurl-7.19.5.1-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "pycurl", 
+  "platform": "linux", 
+  "requires": [
+    "curl 7.38.0", 
+    "openssl 1.0.1k", 
+    "python 2.7", 
+    "system 5.8", 
+    "zlib 1.2.8"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "7.19.5.1"
+}

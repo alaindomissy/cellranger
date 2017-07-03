@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# EASY-INSTALL-ENTRY-SCRIPT: 'pyfasta==0.5.2','console_scripts','pyfasta'
+__requires__ = 'pyfasta==0.5.2'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('pyfasta==0.5.2', 'console_scripts', 'pyfasta')()
+    )

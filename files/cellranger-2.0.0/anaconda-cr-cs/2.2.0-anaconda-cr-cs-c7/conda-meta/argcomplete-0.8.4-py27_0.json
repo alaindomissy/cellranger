@@ -1,0 +1,38 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*", 
+    "setuptools"
+  ], 
+  "files": [
+    "bin/activate-global-python-argcomplete", 
+    "bin/python-argcomplete-check-easy-install-script", 
+    "bin/register-python-argcomplete", 
+    "lib/python2.7/site-packages/argcomplete-0.8.4-py2.7.egg-info", 
+    "lib/python2.7/site-packages/argcomplete/__init__.py", 
+    "lib/python2.7/site-packages/argcomplete/__init__.pyc", 
+    "lib/python2.7/site-packages/argcomplete/bash_completion.d/python-argcomplete.sh", 
+    "lib/python2.7/site-packages/argcomplete/completers.py", 
+    "lib/python2.7/site-packages/argcomplete/completers.pyc", 
+    "lib/python2.7/site-packages/argcomplete/my_argparse.py", 
+    "lib/python2.7/site-packages/argcomplete/my_argparse.pyc", 
+    "lib/python2.7/site-packages/argcomplete/my_shlex.py", 
+    "lib/python2.7/site-packages/argcomplete/my_shlex.pyc"
+  ], 
+  "license": "Apache Software License", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/argcomplete-0.8.4-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "argcomplete", 
+  "platform": "linux", 
+  "requires": [
+    "python 2.7", 
+    "setuptools 12.2"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.8.4"
+}

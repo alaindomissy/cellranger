@@ -1,0 +1,38 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "ipython-notebook", 
+    "python 2.7*"
+  ], 
+  "files": [
+    "bin/runipy", 
+    "lib/python2.7/site-packages/runipy-0.1.3-py2.7.egg-info/PKG-INFO", 
+    "lib/python2.7/site-packages/runipy-0.1.3-py2.7.egg-info/SOURCES.txt", 
+    "lib/python2.7/site-packages/runipy-0.1.3-py2.7.egg-info/dependency_links.txt", 
+    "lib/python2.7/site-packages/runipy-0.1.3-py2.7.egg-info/entry_points.txt", 
+    "lib/python2.7/site-packages/runipy-0.1.3-py2.7.egg-info/requires.txt", 
+    "lib/python2.7/site-packages/runipy-0.1.3-py2.7.egg-info/top_level.txt", 
+    "lib/python2.7/site-packages/runipy/__init__.py", 
+    "lib/python2.7/site-packages/runipy/__init__.pyc", 
+    "lib/python2.7/site-packages/runipy/main.py", 
+    "lib/python2.7/site-packages/runipy/main.pyc", 
+    "lib/python2.7/site-packages/runipy/notebook_runner.py", 
+    "lib/python2.7/site-packages/runipy/notebook_runner.pyc"
+  ], 
+  "license": "BSD", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/runipy-0.1.3-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "runipy", 
+  "platform": "linux", 
+  "requires": [
+    "ipython-notebook 3.0.0", 
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.1.3"
+}

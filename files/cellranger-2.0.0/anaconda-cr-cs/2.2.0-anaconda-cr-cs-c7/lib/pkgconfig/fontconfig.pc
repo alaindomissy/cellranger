@@ -1,0 +1,18 @@
+prefix=/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=${prefix}/etc
+localstatedir=${prefix}/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/${PACKAGE}
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.11.1
+Requires:  freetype2
+Requires.private:  libxml-2.0
+Libs: -L${libdir} -lfontconfig
+Libs.private:  -L/opt/anaconda1anaconda2anaconda3/lib -lfreetype    -L/opt/anaconda1anaconda2anaconda3/lib -lxml2  
+Cflags: -I${includedir}  -I/opt/anaconda1anaconda2anaconda3/include/freetype2    -I/opt/anaconda1anaconda2anaconda3/include/libxml2  

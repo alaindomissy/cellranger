@@ -1,0 +1,63 @@
+{
+  "arch": "x86_64", 
+  "build": "1", 
+  "build_number": 1, 
+  "depends": [
+    "freetype 2.5.2", 
+    "libpng 1.5.13", 
+    "pixman 0.26.2", 
+    "zlib 1.2*"
+  ], 
+  "files": [
+    "bin/cairo-trace", 
+    "include/cairo/cairo-deprecated.h", 
+    "include/cairo/cairo-features.h", 
+    "include/cairo/cairo-ft.h", 
+    "include/cairo/cairo-pdf.h", 
+    "include/cairo/cairo-ps.h", 
+    "include/cairo/cairo-script-interpreter.h", 
+    "include/cairo/cairo-script.h", 
+    "include/cairo/cairo-svg.h", 
+    "include/cairo/cairo-version.h", 
+    "include/cairo/cairo-xlib-xrender.h", 
+    "include/cairo/cairo-xlib.h", 
+    "include/cairo/cairo.h", 
+    "lib/cairo/libcairo-trace.la", 
+    "lib/cairo/libcairo-trace.so", 
+    "lib/cairo/libcairo-trace.so.0", 
+    "lib/cairo/libcairo-trace.so.0.0.0", 
+    "lib/libcairo-script-interpreter.la", 
+    "lib/libcairo-script-interpreter.so", 
+    "lib/libcairo-script-interpreter.so.2", 
+    "lib/libcairo-script-interpreter.so.2.11200.18", 
+    "lib/libcairo.la", 
+    "lib/libcairo.so", 
+    "lib/libcairo.so.2", 
+    "lib/libcairo.so.2.11200.18", 
+    "lib/pkgconfig/cairo-fc.pc", 
+    "lib/pkgconfig/cairo-ft.pc", 
+    "lib/pkgconfig/cairo-pdf.pc", 
+    "lib/pkgconfig/cairo-png.pc", 
+    "lib/pkgconfig/cairo-ps.pc", 
+    "lib/pkgconfig/cairo-script.pc", 
+    "lib/pkgconfig/cairo-svg.pc", 
+    "lib/pkgconfig/cairo-xlib-xrender.pc", 
+    "lib/pkgconfig/cairo-xlib.pc", 
+    "lib/pkgconfig/cairo.pc"
+  ], 
+  "license": "LGPL 2.1 and MPL 1.1", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/cairo-1.12.18-1", 
+    "type": "hard-link"
+  }, 
+  "name": "cairo", 
+  "platform": "linux", 
+  "requires": [
+    "freetype 2.5.2", 
+    "libpng 1.5.13", 
+    "pixman 0.26.2", 
+    "zlib 1.2.8"
+  ], 
+  "url": null, 
+  "version": "1.12.18"
+}

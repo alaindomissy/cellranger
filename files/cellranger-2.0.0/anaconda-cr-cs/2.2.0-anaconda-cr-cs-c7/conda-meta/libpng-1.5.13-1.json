@@ -1,0 +1,34 @@
+{
+  "arch": "x86_64", 
+  "build": "1", 
+  "build_number": 1, 
+  "files": [
+    "bin/libpng-config", 
+    "bin/libpng15-config", 
+    "include/libpng15/png.h", 
+    "include/libpng15/pngconf.h", 
+    "include/libpng15/pnglibconf.h", 
+    "include/png.h", 
+    "include/pngconf.h", 
+    "include/pnglibconf.h", 
+    "lib/libpng.a", 
+    "lib/libpng.la", 
+    "lib/libpng.so", 
+    "lib/libpng15.a", 
+    "lib/libpng15.la", 
+    "lib/libpng15.so", 
+    "lib/libpng15.so.15", 
+    "lib/libpng15.so.15.13.0", 
+    "lib/pkgconfig/libpng.pc", 
+    "lib/pkgconfig/libpng15.pc"
+  ], 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/libpng-1.5.13-1", 
+    "type": "hard-link"
+  }, 
+  "name": "libpng", 
+  "platform": "linux", 
+  "requires": [], 
+  "url": null, 
+  "version": "1.5.13"
+}

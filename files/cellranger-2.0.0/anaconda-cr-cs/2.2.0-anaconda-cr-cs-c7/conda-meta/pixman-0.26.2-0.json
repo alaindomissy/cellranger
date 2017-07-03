@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64", 
+  "build": "0", 
+  "build_number": 0, 
+  "files": [
+    ".index/pixman-0.26.2-0", 
+    "include/pixman-1/pixman-version.h", 
+    "include/pixman-1/pixman.h", 
+    "lib/libpixman-1.a", 
+    "lib/libpixman-1.la", 
+    "lib/libpixman-1.so", 
+    "lib/libpixman-1.so.0", 
+    "lib/libpixman-1.so.0.26.2", 
+    "lib/pkgconfig/pixman-1.pc"
+  ], 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/pixman-0.26.2-0", 
+    "type": "hard-link"
+  }, 
+  "name": "pixman", 
+  "platform": "linux", 
+  "requires": [], 
+  "url": null, 
+  "version": "0.26.2"
+}

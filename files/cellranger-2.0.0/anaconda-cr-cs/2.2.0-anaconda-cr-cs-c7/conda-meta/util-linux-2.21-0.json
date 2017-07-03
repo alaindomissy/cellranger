@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64", 
+  "build": "0", 
+  "build_number": 0, 
+  "files": [
+    ".index/util-linux-2.21-0", 
+    "include/uuid/uuid.h", 
+    "lib/libuuid.a", 
+    "lib/libuuid.la", 
+    "lib/libuuid.so", 
+    "lib/libuuid.so.1", 
+    "lib/libuuid.so.1.3.0", 
+    "lib/pkgconfig/uuid.pc"
+  ], 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/util-linux-2.21-0", 
+    "type": "hard-link"
+  }, 
+  "name": "util-linux", 
+  "platform": "linux", 
+  "requires": [], 
+  "url": null, 
+  "version": "2.21"
+}

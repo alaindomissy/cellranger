@@ -1,0 +1,48 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/toolz-0.7.1-py2.7.egg-info", 
+    "lib/python2.7/site-packages/toolz/__init__.py", 
+    "lib/python2.7/site-packages/toolz/__init__.pyc", 
+    "lib/python2.7/site-packages/toolz/compatibility.py", 
+    "lib/python2.7/site-packages/toolz/compatibility.pyc", 
+    "lib/python2.7/site-packages/toolz/curried.py", 
+    "lib/python2.7/site-packages/toolz/curried.pyc", 
+    "lib/python2.7/site-packages/toolz/curried_exceptions.py", 
+    "lib/python2.7/site-packages/toolz/curried_exceptions.pyc", 
+    "lib/python2.7/site-packages/toolz/dicttoolz.py", 
+    "lib/python2.7/site-packages/toolz/dicttoolz.pyc", 
+    "lib/python2.7/site-packages/toolz/functoolz.py", 
+    "lib/python2.7/site-packages/toolz/functoolz.pyc", 
+    "lib/python2.7/site-packages/toolz/itertoolz.py", 
+    "lib/python2.7/site-packages/toolz/itertoolz.pyc", 
+    "lib/python2.7/site-packages/toolz/recipes.py", 
+    "lib/python2.7/site-packages/toolz/recipes.pyc", 
+    "lib/python2.7/site-packages/toolz/sandbox/__init__.py", 
+    "lib/python2.7/site-packages/toolz/sandbox/__init__.pyc", 
+    "lib/python2.7/site-packages/toolz/sandbox/core.py", 
+    "lib/python2.7/site-packages/toolz/sandbox/core.pyc", 
+    "lib/python2.7/site-packages/toolz/sandbox/parallel.py", 
+    "lib/python2.7/site-packages/toolz/sandbox/parallel.pyc", 
+    "lib/python2.7/site-packages/toolz/utils.py", 
+    "lib/python2.7/site-packages/toolz/utils.pyc"
+  ], 
+  "license": "BSD", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/toolz-0.7.1-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "toolz", 
+  "platform": "linux", 
+  "requires": [
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.7.1"
+}

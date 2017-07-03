@@ -1,0 +1,23 @@
+# Travis CI (http://travis-ci.org/) is a continuous integration
+# service for open source projects. This file configures it
+# to run integration tests for martian.
+
+language: go
+
+go:
+    - 1.3
+
+before_install:
+    - sudo pip install line_profiler
+
+install:
+    - make
+    - make mrp
+
+script:
+    - make test
+    - test/martian_test.py test/fork_test/fork_test.json
+    - test/martian_test.py test/fork_test/fail1_test.json
+    - test/martian_test.py test/fork_test/retry_test.json
+    - test/martian_test.py test/fork_test/autoretry_pass.json
+    - test/martian_test.py test/fork_test/autoretry_fail.json

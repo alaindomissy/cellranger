@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_1", 
+  "build_number": 1, 
+  "files": [
+    ".index/grin-1.2.1-py27_1", 
+    "bin/grin", 
+    "bin/grind", 
+    "lib/python2.7/site-packages/grin-1.2.1-py2.7.egg-info", 
+    "lib/python2.7/site-packages/grin.py", 
+    "lib/python2.7/site-packages/grin.pyc"
+  ], 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/grin-1.2.1-py27_1", 
+    "type": "hard-link"
+  }, 
+  "name": "grin", 
+  "platform": "linux", 
+  "requires": [
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "1.2.1"
+}

@@ -1,0 +1,49 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "python 2.7*"
+  ], 
+  "files": [
+    "bin/runxlrd.py", 
+    "lib/python2.7/site-packages/xlrd-0.9.3-py2.7.egg-info", 
+    "lib/python2.7/site-packages/xlrd/__init__.py", 
+    "lib/python2.7/site-packages/xlrd/__init__.pyc", 
+    "lib/python2.7/site-packages/xlrd/biffh.py", 
+    "lib/python2.7/site-packages/xlrd/biffh.pyc", 
+    "lib/python2.7/site-packages/xlrd/book.py", 
+    "lib/python2.7/site-packages/xlrd/book.pyc", 
+    "lib/python2.7/site-packages/xlrd/compdoc.py", 
+    "lib/python2.7/site-packages/xlrd/compdoc.pyc", 
+    "lib/python2.7/site-packages/xlrd/formatting.py", 
+    "lib/python2.7/site-packages/xlrd/formatting.pyc", 
+    "lib/python2.7/site-packages/xlrd/formula.py", 
+    "lib/python2.7/site-packages/xlrd/formula.pyc", 
+    "lib/python2.7/site-packages/xlrd/info.py", 
+    "lib/python2.7/site-packages/xlrd/info.pyc", 
+    "lib/python2.7/site-packages/xlrd/licences.py", 
+    "lib/python2.7/site-packages/xlrd/licences.pyc", 
+    "lib/python2.7/site-packages/xlrd/sheet.py", 
+    "lib/python2.7/site-packages/xlrd/sheet.pyc", 
+    "lib/python2.7/site-packages/xlrd/timemachine.py", 
+    "lib/python2.7/site-packages/xlrd/timemachine.pyc", 
+    "lib/python2.7/site-packages/xlrd/xldate.py", 
+    "lib/python2.7/site-packages/xlrd/xldate.pyc", 
+    "lib/python2.7/site-packages/xlrd/xlsx.py", 
+    "lib/python2.7/site-packages/xlrd/xlsx.pyc"
+  ], 
+  "license": "BSD", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/xlrd-0.9.3-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "xlrd", 
+  "platform": "linux", 
+  "requires": [
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.9.3"
+}

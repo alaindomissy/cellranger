@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64", 
+  "build": "2", 
+  "build_number": 2, 
+  "depends": [], 
+  "files": [
+    "lib/libgfortran.so.1", 
+    "lib/libgfortran.so.1.0.0"
+  ], 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/system-5.8-2", 
+    "type": "hard-link"
+  }, 
+  "name": "system", 
+  "platform": "linux", 
+  "requires": [], 
+  "url": null, 
+  "version": "5.8"
+}

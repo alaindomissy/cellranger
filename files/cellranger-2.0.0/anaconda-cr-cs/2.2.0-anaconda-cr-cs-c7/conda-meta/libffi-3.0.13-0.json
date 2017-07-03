@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64", 
+  "build": "0", 
+  "build_number": 0, 
+  "files": [
+    "include/ffi.h", 
+    "include/ffitarget.h", 
+    "lib/libffi.a", 
+    "lib/libffi.la", 
+    "lib/libffi.so", 
+    "lib/libffi.so.6", 
+    "lib/libffi.so.6.0.1"
+  ], 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/libffi-3.0.13-0", 
+    "type": "hard-link"
+  }, 
+  "name": "libffi", 
+  "platform": "linux", 
+  "requires": [], 
+  "url": null, 
+  "version": "3.0.13"
+}

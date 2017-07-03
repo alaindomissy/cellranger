@@ -1,0 +1,53 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_0", 
+  "build_number": 0, 
+  "depends": [
+    "libffi 3.0.13", 
+    "pycparser", 
+    "python 2.7*"
+  ], 
+  "files": [
+    "lib/python2.7/site-packages/_cffi_backend.so", 
+    "lib/python2.7/site-packages/cffi-0.9.2-py2.7-linux-x86_64.egg-info", 
+    "lib/python2.7/site-packages/cffi/__init__.py", 
+    "lib/python2.7/site-packages/cffi/__init__.pyc", 
+    "lib/python2.7/site-packages/cffi/api.py", 
+    "lib/python2.7/site-packages/cffi/api.pyc", 
+    "lib/python2.7/site-packages/cffi/backend_ctypes.py", 
+    "lib/python2.7/site-packages/cffi/backend_ctypes.pyc", 
+    "lib/python2.7/site-packages/cffi/commontypes.py", 
+    "lib/python2.7/site-packages/cffi/commontypes.pyc", 
+    "lib/python2.7/site-packages/cffi/cparser.py", 
+    "lib/python2.7/site-packages/cffi/cparser.pyc", 
+    "lib/python2.7/site-packages/cffi/ffiplatform.py", 
+    "lib/python2.7/site-packages/cffi/ffiplatform.pyc", 
+    "lib/python2.7/site-packages/cffi/gc_weakref.py", 
+    "lib/python2.7/site-packages/cffi/gc_weakref.pyc", 
+    "lib/python2.7/site-packages/cffi/lock.py", 
+    "lib/python2.7/site-packages/cffi/lock.pyc", 
+    "lib/python2.7/site-packages/cffi/model.py", 
+    "lib/python2.7/site-packages/cffi/model.pyc", 
+    "lib/python2.7/site-packages/cffi/vengine_cpy.py", 
+    "lib/python2.7/site-packages/cffi/vengine_cpy.pyc", 
+    "lib/python2.7/site-packages/cffi/vengine_gen.py", 
+    "lib/python2.7/site-packages/cffi/vengine_gen.pyc", 
+    "lib/python2.7/site-packages/cffi/verifier.py", 
+    "lib/python2.7/site-packages/cffi/verifier.pyc"
+  ], 
+  "license": "MIT", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/cffi-0.9.2-py27_0", 
+    "type": "hard-link"
+  }, 
+  "name": "cffi", 
+  "platform": "linux", 
+  "requires": [
+    "libffi 3.0.13", 
+    "pycparser 2.10", 
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "0.9.2"
+}

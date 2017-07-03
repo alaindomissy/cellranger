@@ -1,0 +1,31 @@
+{
+  "arch": "x86_64", 
+  "build": "py27_2", 
+  "build_number": 2, 
+  "depends": [
+    "cairo 1.12.18", 
+    "python 2.7*"
+  ], 
+  "files": [
+    "include/pycairo/pycairo.h", 
+    "lib/pkgconfig/pycairo.pc", 
+    "lib/python2.7/site-packages/cairo/__init__.py", 
+    "lib/python2.7/site-packages/cairo/__init__.pyc", 
+    "lib/python2.7/site-packages/cairo/__init__.pyo", 
+    "lib/python2.7/site-packages/cairo/_cairo.so"
+  ], 
+  "license": "LGPL 2.1 and MPL 1.1", 
+  "link": {
+    "source": "/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/pkgs/py2cairo-1.10.0-py27_2", 
+    "type": "hard-link"
+  }, 
+  "name": "py2cairo", 
+  "platform": "linux", 
+  "requires": [
+    "cairo 1.12.18", 
+    "python 2.7"
+  ], 
+  "ucs": 4, 
+  "url": null, 
+  "version": "1.10.0"
+}

@@ -1,0 +1,11 @@
+{
+    "uname": "Linux shipyard.fuzzplex.com 3.2.69-1.el5.elrepo #1 SMP PREEMPT Sun May 10 09:43:52 EDT 2015 x86_64 x86_64 x86_64 GNU/Linux", 
+    "buildtools": {
+        "go": "go version go1.3.1 linux/amd64", 
+        "make": "GNU Make 3.81", 
+        "git": "git version 2.12.0", 
+        "cmake": "cmake version 3.0.1", 
+        "gcc": "gcc (GCC) 4.1.2 20080704 (Red Hat 4.1.2-55)"
+    }, 
+    "cpu": "Intel(R) Xeon(R) CPU E5-2660 v2 @ 2.20GHz"
+}

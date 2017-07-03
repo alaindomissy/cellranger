@@ -1,0 +1,8 @@
+prefix=/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7
+
+Name: Pycairo
+Description: Python bindings for cairo
+Version: 1.10.0
+Requires: cairo
+Cflags: -I/home/bob/armada/WALDO-CR12BUILD-JOB1/build/modules/anaconda-cr-cs/2.2.0-anaconda-cr-cs-c7/include/pycairo
+Libs:
